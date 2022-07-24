@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box ;
+}
+body{
+    margin: 0px ;
+}
+header{
+    height:54px ;
+    padding:9px ;
+    display: flex;
+    justify-content:flex-end
+}
+.logo01{
+    border-radius: 50px;
+}
+ .topo{
+   height:48px;
+   display:flex ;
+}
+.topo01{
+height: 48px ;
+width: 228px ;
+padding-right:4px ;
+justify-content:flex-end ;
+display: flex ;
+align-items: center;
+}
+.topo-gmail a , 
+ .topo-imagens a{
+    text-decoration: none ;
+    margin-right: 10px ;
+    font-family: Arial, Helvetica, sans-serif ;
+    color:black ;
+    font-size: 13px ;
+}
+.topo01 .topo-gmail, .topo-imagens ,.topo-guia ,.topo-foto{
+    flex:1 ;
+    
+}
+.topo-foto{
+    display: flex ;
+    align-items: center;
+    justify-content:center ;
+    width: 40px ;
+    height: 40px ;
+}
+.topo-guia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 367px;
+    height: 40px;
+    margin-right: 9px;
+    margin-left: 5px;
+}
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2px;
+}
+.dot {
+    background-color: #606060;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    margin: 1px;
+}
+.perfil img{
+    height: 32px ;
+    border-radius: 50%;
+}
+
+.topo01 a:hover{
+    text-decoration: underline ;
+}
+.conteiner-center{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    height: 100% ;
+    margin: auto;
+    margin-top: 204px ;
+}
+.img-google img{
+    margin-top:auto ;
+    max-height:100%;
+    max-width:100%;
+    max-height: 99px ;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+    margin-bottom: 24px ;
+}
+.search{
+    display: flex ;
+    height: 45px ;
+    width:586px  ;
+    border: 1px solid #dfe1e5 ;
+    border-radius: 24px ;
+
+}
+.search-01{
+    flex:1 ;
+    display: flex ;flex:1 ;
+    display: flex ;
+    padding: 5px 8px 0px 14px ;
+}.search-01 input{
+    border: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 40px;
+    color:black ;
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    width: 520px;
+    height: 34px;
+    font-size: 16px;
+}
+.icon{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between ;
+    position: absolute ;
+    margin-top:25px ;
+    height:0px ;
+    outline: none;
+    display: flex;
+    flex: 100%;
+}
+.voice img{
+    height: 40px ;
+    padding-right:19px ;
+    padding-top: 5px ;
+}
+.search-icon{
+    margin-bottom: 1 px;
+
+}
+.icon .search-icon img{
+    height: 18px ;
+    padding-left: 15px;
+}
+.center {
+    padding-top: 16px ;
+    display: block;
+    text-align: -webkit-center;
+}
+.center input{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family:arial,sans-serif ;
+    font-size:14px;
+    margin: 11px 4px ;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px ;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer ;
+    user-select: none ;
+}
+.center input:hover{
+    border: 1px solid rgb(204, 201, 201) ;
+}
